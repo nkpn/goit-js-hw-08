@@ -60,6 +60,7 @@ function closeModalByBackdrop(event) {
   }
 }
 
+//* закрытие через Esc
 function onEscKeyPress(event) {
   const ESC_KEY_CODE = 'Escape';
   const isEscKey = event.code === ESC_KEY_CODE;
